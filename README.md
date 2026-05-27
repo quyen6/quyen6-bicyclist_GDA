@@ -65,9 +65,16 @@ Tôi tiến hành gom nhóm dữ liệu (`groupby`) theo `member_casual` và `ye
 
 Dựa trên các bằng chứng dữ liệu rõ ràng ở trên, tôi đề xuất 3 chiến lược hành động cụ thể cho Giám đốc Marketing Lily Moreno:
 
-1. **Thiết kế gói hội viên mới - "Weekend Membership Package":** Vì khách Casual chủ yếu bùng nổ vào cuối tuần với thời lượng chuyến đi dài, việc tung ra một gói thành viên chuyên biệt cho Thứ 7 & Chủ Nhật với mức giá ưu đãi sẽ kích thích họ đăng ký ngay lập tức thay vì trả tiền theo từng lượt.
-2. **Chiến dịch Marketing kỹ thuật số theo "Khung giờ vàng" cuối tuần:** Thiết kế các thông báo đẩy trên ứng dụng (In-app notifications) hoặc quảng cáo định vị mục tiêu tập trung vào khung giờ từ **15h - 17h ngày Thứ 7 và Chủ Nhật** tại các trạm xe gần khu du lịch, công viên, bờ sông để tiếp cận khách Casual đúng lúc họ đang sử dụng dịch vụ giải trí.
-3. **Truyền thông cá nhân hóa dựa trên giá trị tiết kiệm (Value-driven Messaging):** Sử dụng hệ thống gửi email/thông báo tự động cho những tài khoản Casual thường xuyên có chuyến đi kéo dài hơn 30 phút. Gửi cho họ bảng tính trực quan: *"Bạn đã đạp xe 90 phút tuần này, nếu bạn là Member bạn đã tiết kiệm được X% chi phí!"* để thúc đẩy động lực chuyển đổi.
+1. **Gói hội viên cuối tuần (Weekend Membership):** * *Cơ sở dữ liệu:* Lượng khách Casual bùng nổ đột biến vào Thứ 7 và Chủ Nhật.
+   * *Hành động:* Thiết kế và triển khai một gói sản phẩm thành viên chuyên biệt cho hai ngày cuối tuần với mức chi phí tối ưu. Gói này đóng vai trò như một "bước đệm" giúp Cyclistic giữ chân nhóm khách hàng giải trí mà không ép họ phải mua gói cả năm ngay lập tức.
+
+2. **Truyền thông đánh vào nỗi đau chi phí:**
+   * *Cơ sở dữ liệu:* Thời gian đi xe trung bình của khách Casual dài gấp 2 - 3 lần so với Member (từ 25 - 45+ phút). Nếu tính theo biểu phí trả theo lượt hiện tại, họ đang phải chi trả một số tiền rất lớn.
+   * *Hành động:* Xây dựng các chiến dịch truyền thông cá nhân hóa (Email/Thông báo ứng dụng) gửi trực tiếp đến các tài khoản Casual thường xuyên đi chuyến dài với thông điệp tài chính rõ ràng: *"Bạn đã chi X đồng cho việc đạp xe tuần này. Nếu đổi sang thẻ Hội viên, bạn đã tiết kiệm được Y%!"*. Việc so sánh trực quan này sẽ kích thích động lực chuyển đổi nhờ đánh trúng "nỗi đau ví tiền" của họ.
+
+3. **Định vị quảng cáo trọng điểm:**
+   * *Cơ sở dữ liệu:* Khách Casual có khung giờ hoạt động tập trung rõ rệt (đạt đỉnh từ 15h - 17h chiều) và thường xuất hiện tại các địa điểm phục vụ mục đích giải trí.
+   * *Hành động:* Tập trung toàn bộ ngân sách tiếp thị số (quảng cáo định vị, banner ứng dụng) vào đúng "khung giờ vàng" này. Đồng thời đặt các trạm thông tin quảng cáo vật lý mang tính kích thích thị giác tại các điểm nóng trọng điểm như khu vực công viên, điểm tham quan du lịch, hoặc dọc các bờ sông ở Chicago – nơi tập trung mật độ khách Casual cao nhất.
 
 ---
 
